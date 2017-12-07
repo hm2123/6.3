@@ -9,9 +9,9 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-public class GUI extends JFrame {
+public class BLS extends JFrame {
 
-    public GUI() {
+    public BLS() {
         GridLayout gridLayout = new GridLayout(2,2);
         JPanel panel = new JPanel(gridLayout);
         JButton [] btn = new JButton[4];
@@ -30,7 +30,7 @@ public class GUI extends JFrame {
         setVisible(true);
     }
     public static void main(String[] args) {
-        new GUI ();
+        new BLS ();
 
 
     }
